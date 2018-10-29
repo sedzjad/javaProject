@@ -7,6 +7,7 @@ public class opdracht2 {
         String voelen = "";
         String gedaan = "";
         String plannen = "";
+        Integer huisNummer = 0;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("How are you doing today?");
@@ -19,9 +20,14 @@ public class opdracht2 {
         System.out.println("What are you planning on doing for the rest of the day?");
         plannen = scanner.nextLine();
 
+        System.out.println("What is your housnumber and postal code");
+        huisNummer = scanner.nextInt();
+
+
         System.out.println("You are feeling "+ voelen);
         System.out.println("You have done this today: "+ gedaan);
         System.out.println("You are plan to do: " + plannen);
+        System.out.println("Your housnumber and postalcode: " + huisNummer);
 
     }
 

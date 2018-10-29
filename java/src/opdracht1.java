@@ -17,7 +17,7 @@ public class opdracht1
         naam = Charname.nextLine();
         System.out.println(naam);
 
-        System.out.println("Wat is je achternaam");
+        System.out.println("Wat is je achterna0am");
         achternaam = Charname.nextLine();
         System.out.println(achternaam);
 
